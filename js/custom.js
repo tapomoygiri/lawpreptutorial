@@ -1,0 +1,65 @@
+$('#teamSlider').owlCarousel({
+    loop:true,
+    margin:20,
+    autoplay:true,
+    autoplayTimeout:2000,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:6,
+            center:true
+        }
+    }
+})
+
+$('#strategicSec').owlCarousel({
+    loop:true,
+    margin:20,
+    nav:false,
+    responsive:{
+        0:{
+            items:1,
+            mouseDrag:true,
+            touchDrag:true,
+            autoplay:true,
+            autoplayTimeout:2000
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4,
+            mouseDrag:false,
+            touchDrag:false,
+        }
+    }
+})
+
+$('#lawEntranceSec').owlCarousel({
+    loop:true,
+    margin:20,
+    nav:false,
+    responsive:{
+        0:{
+            items:1,
+            mouseDrag:true,
+            touchDrag:true,
+            autoplay:true,
+            autoplayTimeout:2000
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3,
+            mouseDrag:false,
+            touchDrag:false,
+        }
+    }
+})

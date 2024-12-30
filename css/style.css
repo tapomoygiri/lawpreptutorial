@@ -1,0 +1,433 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#callModel .modal-header{
+    border-bottom: 0px;
+}
+
+#callModel #body h6{
+    font-weight: bold;
+}
+
+#callModel #body a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#callModel #footer a{
+    text-decoration: none;
+}
+
+#callModel .modal-footer{
+    border-top: 1.9px dotted #dee2e6;
+}
+
+#loginModel .modal-header{
+    border-bottom: 0px;
+}
+
+#loginModel .input-group{
+    height: 55px;
+    border-radius: 5px;
+}
+
+#loginModel #loginButton{
+    height: 55px;
+    background-color: red;
+}
+
+#loginModel #links a{
+    text-decoration: none;
+}
+
+header{
+    background-color: #101828;
+}
+
+#myMenu ul li a{
+    margin: 0px 15px;
+}
+
+#myMenu ul li .signIn{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 80px;
+    height: 42px;
+    border-radius: 5px;
+}
+
+#myMenu ul li .call{
+    background-color: #667085;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#offcanvasMenu a{
+    font-weight: bold;
+}
+
+#offcanvasMenu .call{
+    background-color: #667085;
+}
+
+#offcanvasMenu .signIn{
+    background-color: red;
+    color: white;
+}
+
+#bannerSection{
+    background: linear-gradient(261.99deg,#ffe3dd 2.82%,#fff8da 17.1%,rgba(255,249,221,0) 31.78%,hsla(0,100%,90%,.04) 50.27%,rgba(255,249,221,.35) 67.28%,#ffeee9 77.89%,rgba(255,238,233,.14) 91.09%);
+}
+
+#mainSlider .carousel-indicators{
+    bottom: -60px;
+}
+
+#mainSlider .carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#bannerSection form{
+    background-color: #101828;
+}
+
+#bannerSection form p{
+    color: #667085;
+}
+
+#bannerSection form input{
+    height: 45px;
+}
+
+#bannerSection form .input-group-text{
+    background-color: white;
+}
+
+#bannerSection form select{
+    height: 45px;
+}
+
+#bannerSection form select option{
+    height: 45px;
+}
+
+#bannerSection form .selectMenuDiv img{
+    position: absolute;
+}
+
+@keyframes buttonEfect{
+    0%{
+        left: -1px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
+#bannerSection form .buttonDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+#bannerSection form .buttonDiv button{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+
+#bannerSection form .buttonDiv .effect{
+    border-left: 15px solid rgba(255, 255, 255, 0.282);
+    height: 100%;
+    position: absolute;
+    left: -1px;
+    animation: buttonEfect 2s 0s infinite ease-out;
+}
+
+.StrategicItems a{
+    color: #667085;
+}
+
+.StrategicItems p{
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.StrategicItems{
+    border-radius: 10px;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+
+.StrategicItems:hover{
+    transform: translateY(-10px);
+}
+
+.StrategicItems::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: -100%;
+    bottom: 0px;
+    background-color: red;
+    transition: 0.5s;
+}
+
+.StrategicItems:hover::before{
+    left: 0;
+}
+
+.StrategicItems a{
+    text-decoration: none;
+}
+
+.StrategicItems:hover a{
+    color: red;
+}
+
+#lawEntranceDiv{
+    background-color: #101828;
+    padding: 100px 0px;
+}
+
+#lawEntranceDiv p{
+    color: #667085;
+}
+
+/* #lawEntranceDiv .col-lg-6{
+    width: 33.33333333%;
+} */
+
+#lawEntranceDiv #lawEntranceCol-1{
+    background: linear-gradient(106.78deg,#ffefab 10.51%,#f1c4c4 80.72%);
+    transition: all .5s;
+}
+
+#lawEntranceDiv #lawEntranceCol-1 h1{
+    font-family: Train One !important;
+    color: #667085;
+    padding-top: 15px;
+    padding-bottom: 100px;
+}
+
+#lawEntranceDiv #lawEntranceCol-1:hover p{
+    color: black;
+}
+
+#lawEntranceDiv #lawEntranceCol-1 li button{
+    color: #667085;
+    font-weight: bold;
+    background-color: white;
+}
+
+#lawEntranceDiv #lawEntranceCol-1 li button:hover{
+    color: white;
+    background-color: red;
+}
+
+#lawEntranceDiv #lawEntranceCol-1:hover{
+    background-image: url(../images/courses-card-bg.webp);
+    background-size: cover;
+}
+
+#lawEntranceCol-1:hover #background{
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
+#lawEntranceCol-1 #animation{
+    transition: transform 0.5s ease;
+}
+
+#lawEntranceCol-1:hover #animation{
+    transform: translateY(-10px);
+    transition: transform 0.5s ease;
+}
+
+#lawEntranceCol-1 #animation h1{
+    transition: all 0.5s ease;
+}
+
+#lawEntranceCol-1:hover #animation h1{
+    transform: translateY(40px);
+    transition: all 0.5s ease;
+    opacity: 0;
+}
+
+#lawEntranceCol-1:hover #animation h3{
+    color: white;
+}
+
+#lawEntranceCol-1:hover #animation p{
+    color: white;
+}
+
+#lawEntranceCol-1 #aibButton{
+    padding-top: 20%;
+    padding-bottom: 12%;
+}
+
+#recentNewsSec a{
+    text-decoration: none;
+    color: black;
+}
+
+#recentNewsSec a:hover{
+    color: red;
+}
+
+#recentNewsSec #imgHoverZoom{
+    overflow: hidden;
+}
+
+#recentNewsSec #imgHoverZoom img{
+    transition: transform .5s ease;
+}
+
+#recentNewsSec #imgHoverZoom:hover img{
+    transform: scale(1.1);
+}
+
+#recentNewsSec #imgHoverZoom{
+    position: relative;
+}
+
+#recentNewsSec #imgHoverZoom #shadow{
+    position: absolute;
+    top: -0;
+    transition: transform .5s ease;
+    opacity: 0;
+}
+
+#recentNewsSec #imgHoverZoom #shadow:hover{
+    background-color: rgba(0, 0, 0, 0.236);
+    opacity: 1;
+}
+
+#recentNewsSec button{
+    border: 1px solid red;
+    font-weight: 500;
+    color: red;
+}
+
+#recentNewsSec button:hover{
+    background-color: red;
+    color: white;
+}
+
+#faqSection{
+    background-color: #f1f1f1;
+}
+
+#faqSection button{
+    font-weight: 500;
+}
+
+#footerSec{
+    background-color: #101828;
+}
+
+#footerSec .hover-underline-animation{
+    display: inline-block;
+    position: relative;
+}
+  
+#footerSec .hover-underline-animation::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transition: transform 0.25s ease-out;
+}
+  
+#footerSec .hover-underline-animation:hover::after{
+    /* transform-origin: bottom left; */
+    transform: scaleX(1);
+}
+
+#footerSec .hover-underline-animation.left::after{
+    transform-origin: bottom right;
+}
+  
+#footerSec .hover-underline-animation.left:hover::after{
+    transform-origin: bottom left;
+}
+
+#footerSec #impLink p{
+    color: #667085;
+    font-weight: bold;
+}
+
+#footerSec #impLink a{
+    text-decoration: none;
+    color: white;
+}
+
+#footerSec #impLink-2 a{
+    text-decoration: none;
+    color: white;
+}
+
+#footerSec #impLink-3 p:nth-child(1){
+    color: #667085;
+    font-weight: bold;
+}
+
+#footerSec #impLink-3 a{
+    text-decoration: none;
+    color: white;
+}
+
+#socalMedia{
+    background-color: #101828;
+    border-top: 1px solid #202b41;
+}
+
+#socalMedia p{
+    color: #667085;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#socalMedia a i{
+    color: #667085;
+    font-size: 20px;
+}
+
+#socalMedia .li-1 i:hover{
+    color: #08c;
+}
+
+#socalMedia .li-2 i:hover{
+    color: #08c;
+}
+
+#socalMedia .li-3 i:hover{
+    color: #962fbf;
+}
+
+#socalMedia .li-4 i:hover{
+    color: #ed1b23;
+}
